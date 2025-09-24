@@ -24,7 +24,7 @@ extension Color {
         uiColor: .init { traitCollection in
           switch traitCollection.userInterfaceStyle {
           case .unspecified, .light:
-            return UIColor(light())
+            return UIColor(dark())
           case .dark:
             return UIColor(dark())
           @unknown default:
