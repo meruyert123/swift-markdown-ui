@@ -155,7 +155,7 @@ extension Shape where Self == RoundedRectangle {
 
 extension Color {
   fileprivate static let text = Color(
-    light: Color(rgba: 0x1d1d_1fff), dark: Color(rgba: 0xf5f5_f7ff)
+    light: Color(rgba: 0xf5f5_f7ff), dark: Color(rgba: 0xf5f5_f7ff)
   )
   fileprivate static let secondaryLabel = Color(
     light: Color(rgba: 0x6e6e_73ff), dark: Color(rgba: 0x8686_8bff)
