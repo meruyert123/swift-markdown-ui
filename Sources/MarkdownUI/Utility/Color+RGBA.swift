@@ -28,7 +28,7 @@ extension Color {
           case .dark:
             return UIColor(dark())
           @unknown default:
-            return UIColor(light())
+            return UIColor(dark())
           }
         }
       )
@@ -36,7 +36,7 @@ extension Color {
       self.init(
         nsColor: .init(name: nil) { appearance in
           if appearance.bestMatch(from: [.aqua, .darkAqua]) == .aqua {
-            return NSColor(light())
+            return NSColor(dark())
           } else {
             return NSColor(dark())
           }
