@@ -168,7 +168,7 @@ extension Theme {
 
 extension Color {
   fileprivate static let text = Color(
-    light: Color(rgba: 0x0606_06ff), dark: Color(rgba: 0xfbfb_fcff)
+    light: Color(rgba: 0xfbfb_fcff), dark: Color(rgba: 0xfbfb_fcff)
   )
   fileprivate static let secondaryText = Color(
     light: Color(rgba: 0x6b6e_7bff), dark: Color(rgba: 0x9294_a0ff)
